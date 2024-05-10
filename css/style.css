@@ -10,7 +10,6 @@ h2{
     font-weight: 700;
 }
 
-
 main {
     display: flex;
     justify-content: center;
@@ -23,7 +22,6 @@ section {
     height: 415px;
     background-color: #F7F7F7;
 }
-
 
 .container { 
     display: grid;
@@ -41,7 +39,6 @@ section {
     margin-bottom: 12px;
     width: 100%;
 }
-
 
 .video-destaque .informacoes .titulo-video{
     color: rgb(0, 0, 0);
