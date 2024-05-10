@@ -1,0 +1,83 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 700;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+section {
+    width: 900px;
+    height: 415px;
+    background-color: #F7F7F7;
+}
+
+
+.container { 
+    display: grid;
+    max-width: 900px;
+    grid-template-areas: "video-destaque propaganda"
+                        "video-destaque videos-laterais";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 20px;
+    padding: 35px;
+
+}
+
+.video-destaque img {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+
+.video-destaque .informacoes .titulo-video{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.video-destaque .informacoes .visualizacoes {
+    color: gray;
+    font-size: 14px;
+}
+
+.video-destaque{
+    grid-area: video-destaque;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.videos-laterais {
+    grid-area: videos-laterais;
+}
+
+.videos-laterais .video {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.videos-laterais .video .titulo {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-laterais .video p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
